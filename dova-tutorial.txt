@@ -1,0 +1,119 @@
+Dovahzul
+
+History
+Dovahzul is an ancient Nordic language which translates to "Dragon Language".
+It was often shouted by the Vikings of the Nordic region to scare their victim while
+also confusing and intimidating their foes.
+
+Features
+	1. Assign an integer, a boolean value, a string value or the result of an 
+		operation to variables
+	2. Display constants, the value of a variable, or the result of an operation
+	3. Perform basic mathematical operations on integers (i.e. addition, subtraction,
+		multiplication and division)
+	4. Perform basic boolean operations on two boolean values (i.e. conjunction [AND]
+		and disjunction [OR])
+	5. Perform basic comparsion between two integer values (i.e <, > and ==)
+	6. Interprets the source code into [destination language i.e. C, C++, C# or Java]
+	
+Syntax
+	1. Syntax similar to C-based languages (i.e. C, C++, C#, Java and Python)
+	2. Simple grammar similar to Python
+	3. Reserved keywords are typed in ALL CAPS
+		> Homage to vikings shouting the Dovahzul language
+		
+Variable Assignment
+	[variable_name] LOS [integer | string | boolean | equation]
+		> Variable names can consist of any number of characters
+	e.g.
+		num LOS 1
+		str LOS "dovah"
+		bool LOS VAHZAH
+		
+Boolean Values
+	VAHZAH = True
+		> means "true"
+	FOLAAS = False
+		> means "wrong"
+		
+Display Values
+	REIN [variable_name | integer | string | boolean | equation]
+	e.g.
+		REIN num
+		REIN 0
+		REIN FOLAAS
+		REIN "dovahkiin"
+		
+Equations
+	1. Mathematical
+	2. Logical
+	3. Comparison
+	
+Mathematical Operations
+	1. Addition
+		[integer1] AAV [integer2]
+		> returns "integer1 + integer2"
+		> "AAV" means "join"
+		e.g.
+			num1 LOS 1 AAV 2
+			REIN 3 AAV 4
+	2. Subtraction
+		[integer1] AUS [integer2]
+		> returns "integer1 - integer2"
+		> "AUS" means "suffer"
+		e.g.
+			num2 LOS 2 AUS 1
+			REIN 4 AUS 3
+	3. Multiplication
+		[integer1] DUN [integer2]
+		> returns "integer1 * integer2"
+		> "DUN" means "grace"
+		e.g.
+			num3 LOS 2 DUN 3
+			REIN 4 DUN 2
+	4. Division
+		[integer1] DUR [integer2]
+		> returns "integer1 / integer2"
+		> "DUR" means "curse"
+		e.g.
+			num4 LOS 4 DUR 2
+			REIN 9 DUR 3
+			
+Logical Operations
+	1. Conjunction (AND)
+		[boolean1] AHRK [boolean2]
+		> returns VAHZAH if boolean1 and boolean2 are both VAHZAH, else it returns FOLAAS
+		> "AHRK" means "and"
+		e.g.
+			bool1 LOS VAHZAH AHRK FOLAAS
+			REIN VAHZAH AHRK VAHZAH
+	2. Disjunction (OR)
+		[boolean1] ONT [boolean2]
+		> returns VAHZAH if boolean1, boolean2 or both are VAHZAH, else it returns FOLAAS
+		> "ONT" means "once"
+		e.g.
+			bool2 LOS VAHZAH AHRK FOLAAS
+			REIN FOLAAS ONT FOLAAS
+			
+Comparison Operations
+	1. Less Than (<)
+		[integer1] SAHLO [integer2]
+		> returns VAHZAH if integer1 is less than integer2, else it returns FOLAAS
+		> "SAHLO" means "weak"
+		e.g.
+			bool3 LOS 1 SAHLO 2
+			REIN 3 SAHLO 2
+	2. Greater Than (>)
+	[integer1] LOT [integer2]
+		> returns VAHZAH if integer1 is greater than integer2, else it returns FOLAAS
+		> "LOT" means "great"
+		e.g.
+			bool4 LOS 1 LOT 2
+			REIN 3 LOT 2
+	3. Equals to (==)
+	[integer1] RO [integer2]
+		> returns VAHZAH if integer1 is equal to integer2, else it returns FOLAAS
+		> "RO" means "balance"
+		e.g.
+			bool5 LOS 0 RO 0
+			REIN 10 RO 1
