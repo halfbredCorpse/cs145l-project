@@ -1,0 +1,39 @@
+num1 LOS 1
+num2 LOS 2 AAV 3
+num3 LOS 5 AUS 4
+num4 LOS 6 DUN 7
+num5 LOS 8 DUR 4
+
+REIN num1
+REIN num2
+REIN num3
+REIN num4
+REIN num5
+
+string1 LOS "a"
+string2 LOS "abc"
+string3 LOS "1"
+
+REIN string1
+REIN string2
+
+bool1 LOS TRUE
+bool2 LOS FALSE
+bool3 LOS bool1 AHRK bool2
+bool4 LOS bool1 ONT bool2
+bool5 LOS 1 SAHLO 2
+bool6 LOS 1 LOT 2
+
+REIN bool1
+REIN bool2
+REIN bool3
+REIN bool4
+REIN bool5
+REIN bool6
+
+REIN 7 AUS 4
+REIN "dovahkiin"
+REIN 9 RO 9
+REIN 0
+REIN TRUE
+REIN FALSE
