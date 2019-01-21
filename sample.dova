@@ -16,6 +16,7 @@ string3 LOS "1"
 
 REIN string1
 REIN string2
+REIN string3
 
 bool1 LOS TRUE
 bool2 LOS FALSE
